@@ -121,12 +121,12 @@ print(a)
 """
 
 #Q12
-c=filter(lambda x:x+x ,filter(lambda x:(x>=3),(1,2,3,4)))
+c=map(lambda x:x+x ,filter(lambda x:(x>=3),(1,2,3,4)))
 
 print(list(c))
 
 """RESULT
-[3, 4]
+[6, 8]
 """
 
 

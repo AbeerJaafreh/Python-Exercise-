@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    {%if marks >= 90 %}
+    <h1> GOT A</h1>
+    
+
+   {% elif marks >= 80 and marks <90 %}
+    <h1> GOT B</h1>
+   
+
+    {% elif marks >=70 and marks <80 %}
+    <h1> GOT C</h1>
+   
+
+    {% elif marks >= 60 and marks <70 %}
+    <h1> GOT D</h1> 
+
+    {%else%}
+    <h1>FAILD</h1>
+    {%endif%}
+</body>
+</html>
